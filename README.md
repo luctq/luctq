@@ -17,3 +17,4 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=luctq&" alt="luctq" />
 </p>
 
+![Metrics](/github-metrics.svg)
