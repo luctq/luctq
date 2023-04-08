@@ -10,6 +10,6 @@
 </p>
 
 <p align="center">
-<img align="center" src="https://github.com/luctq/luctq/blob/master/github-metrics.svg" alt="profile">
+<img align="center" src="https://github.com/luctq/luctq/blob/master/github-metrics.svg" height="90%" alt="profile">
 </p>
 
