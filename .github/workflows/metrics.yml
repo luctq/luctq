@@ -28,7 +28,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           # Options
           user: luctq
-          template: classic
+          template: repository
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           base_skip: yes
