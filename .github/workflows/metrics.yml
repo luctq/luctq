@@ -28,18 +28,11 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           # Options
           user: luctq
-          template: repository
+          template: classic
           base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          base_skip: yes
 
           config_display: large
           config_timezone: Asia/Saigon
-
-          plugin_topics: yes
-          plugin_topics_mode: mastered
-          plugin_topics_limit: 8
-          plugin_topics_sort: random
 
           plugin_followup: yes
           plugin_followup_archived: yes
@@ -57,6 +50,11 @@ jobs:
           plugin_languages: yes
           plugin_languages_other: yes
 
+          plugin_topics: yes
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 8
+          plugin_topics_sort: random
+          
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
