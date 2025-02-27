@@ -55,10 +55,10 @@ jobs:
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://luctq-dev.vercel.app/
 
-          filename: metrics.plugin.topics.icons.svg
           plugin_topics: yes
-          plugin_topics_limit: 0
           plugin_topics_mode: icons
+          plugin_topics_limit: 8
+          plugin_topics_sort: random
           
           plugin_lines: yes
           plugin_lines_history_limit: 1
